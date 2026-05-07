@@ -38,7 +38,7 @@ jobs:
         id: images
         run: |
           echo "images<<EOF" >> $GITHUB_OUTPUT
-          cat images.txt
+          cat images.txt >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
       
       - name: Pull and save images
@@ -74,4 +74,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: docker-images
-          path: *.tar
+          path: '*.tar'
