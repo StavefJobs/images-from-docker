@@ -17,7 +17,7 @@ mysql:lts
 filerun/filerun
 lscr.io/linuxserver/jackett
 ampache/ampache:latest
-bitnami/minio:latest
+elestio/minio:latest
 danielszabo99/microbin
 linuxserver/wireguard:1.0.20250521
 grafana/grafana:main
