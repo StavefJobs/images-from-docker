@@ -17,11 +17,9 @@ jobs:
 
       
       - name: Read images list
-        id: images
         run: |
-          echo "images<<EOF" >> $GITHUB_OUTPUT
-          cat images.txt >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          echo "Images to process:"
+          cat images.txt
       
       - name: Pull and save images
         run: |
