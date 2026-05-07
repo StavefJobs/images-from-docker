@@ -1,6 +1,7 @@
 gotify/server
 jc21/nginx-proxy-manager:latest
-uptime-kuma
+elestio/uptime-kuma:2.2.1
+dhi.io/uptime-kuma:2
 alireza7/s-ui
 portainer/portainer-ce:lts
 containrrr/watchtower
